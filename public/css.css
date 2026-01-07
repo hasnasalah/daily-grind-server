@@ -1,3 +1,26 @@
-body{
-    background-color: antiquewhite;
+
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+html, body {
+    background-color:antiquewhite;
+height: 100%; 
+margin: 0; 
+}
+.container {
+display: flex;
+flex-direction: column;
+ justify-content: center;
+    align-items: center;
+}
+.content {
+flex: 1; 
+}
+.footer {
+background: #333; 
+color: white; 
+text-align: center; 
+padding: 10px;
 }
